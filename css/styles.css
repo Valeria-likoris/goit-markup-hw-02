@@ -23,14 +23,22 @@
 body{
     color:var(--primary-text-color) ;
     background-color:var(--primary-bgc-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 .list{
     list-style: none;
 }
 
 /* Site header */
+
 .logo{
     color:var(--secondary-text-color) ;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 .logo .web-logo{
     color:var(--accent-color) ;
@@ -38,6 +46,9 @@ body{
 /* Site nav */
 .navigation-list .navigation-link{
     color:var(--secondary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 .navigation-list .navigation-link:hover,
@@ -49,16 +60,24 @@ body{
 }
 
 /* Contacts */
-.contacts .contact-link{
-    color: var(--primary-text-color);
+.contacts{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
+.contact-link {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 .contacts .contact-link:hover, 
 .contacts .contact-link:focus{
     color: var(--accent-color);
 }
 
-.contacts .contact-tel{
+.contact-tel{
     color:var(--primary-text-color);
+    text-decoration: none;
 }
 .contacts .contact-tel:hover,
 .contacts .contact-tel:focus{
@@ -67,10 +86,19 @@ body{
 /* Site Hero */
 .hero-title{
     color:var(--white-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
                                     /* Buttons */
 .button{
-
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 .button.primary{
     color: var(--white-text-color);
@@ -94,16 +122,37 @@ body{
 /* Section */
 .section-title{
     color:var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
 }
 
 /* Features */
 .feature-list .title{
     color:var(--secondary-text-color);
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.feature-list .paragraph{
+    font-weight: 400;
+    line-height: 1.7;
 }
 
 /*  Team */
 .team-list .title{
     color:var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+  
+}
+.team-list .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+  
 }
 
 /* Footer */
@@ -120,13 +169,21 @@ body{
 .project-list .title{
     color:var(--secondary-text-color);
 }
+.address .connect{
+    font-weight: 400;
+    line-height: 1.7px;
+}
+
 .address .map{
     color: var(--white-text-color);
+    text-decoration: none;
 }
 
 .address .contact-link{
     color: var(--transparent-text-color);
+
 }
 .address .contact-tel{
     color: var(--transparent-text-color);
+
 }
