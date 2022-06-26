@@ -39,11 +39,15 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .logo .web-logo{
     color:var(--accent-color) ;
 }
 /* Site nav */
+.navigation-link{
+    text-decoration: none;
+}
 .navigation-list .navigation-link{
     color:var(--secondary-text-color);
     font-weight: 500;
@@ -161,12 +165,16 @@ body{
 }
 
 
-/* POREFOLIO */
+/* PORTFOLIO */
 /* Project */
 .footer{
     background-color: var(--accent-bgc);
 }
-.project-list .title{
+.project{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+.project .title{
     color:var(--secondary-text-color);
 }
 .address .connect{
@@ -187,3 +195,5 @@ body{
     color: var(--transparent-text-color);
 
 }
+
+
